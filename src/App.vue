@@ -1,16 +1,18 @@
 <script>
+import NavbarComponent from './components/NavbarComponent.vue';
 
+
+export default {
+  components: {
+    NavbarComponent,
+  },
+};
 </script>
 
 <template>
-  <button type="button" class="btn btn-primary">Primary</button>
-    
-
-  <RouterView />
+  <NavbarComponent></NavbarComponent>
 </template>
 
 <style lang="scss">
- @import "./assets/all.scss";
-
-
+@import "./assets/all.scss";
 </style>
